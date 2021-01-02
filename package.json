@@ -1,0 +1,38 @@
+{
+  "name": "netlify-cms-editor-component-media-file-link",
+  "description": "Media file link component for Netlify CMS editor widget",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thefrontender/netlify-cms-editor-component-media-file-link"
+  },
+  "bugs": {
+    "url": "https://github.com/thefrontender/netlify-cms-editor-component-media-file-link/issues"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "netlify",
+    "netlify-cms",
+    "editor",
+    "component",
+    "file-link",
+    "media"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "babel ./src/index.js --out-dir ./dist -s inline"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  }
+}
